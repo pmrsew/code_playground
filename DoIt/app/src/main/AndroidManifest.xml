@@ -25,11 +25,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <!-- REMOVE CODE SO MAIN ACTIVITY ISN'T ASSOCIATED AS A LAUNCHER
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
     </application>
 
