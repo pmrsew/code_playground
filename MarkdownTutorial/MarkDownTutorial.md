@@ -7,8 +7,9 @@ Surround words with underscore to make italic
 * _multiple words_
 
 Surround words with two asterisks (**) to make bold
-* **word**
-* **multiple words**
+
+**word**  
+**multiple words**
 
 To apply bold and italic to the same words:
 * **_word_**
