@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <title>React ⚛️ 3.1</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    
+    //create a component - javascript function that returns JSX
+    function Header(){
+      return (
+        <header>
+          <h1>Eve's Kitchen</h1>
+        </header>
+      )
+    }
+
+    function Main(){
+      return(
+        <section>
+          <p>
+            We serve the most delicious food around!
+          </p>
+        </section>
+      )
+    }
+
+    //ReactDOM.render() can only take in a single element
+
+    //What is returned here COULD be entered into the render method,
+    //as a parameter passed in, but it's easier to handle as a 
+    //separate function.
+    function App(){
+      return (
+        <div>
+          <Header />
+          <Main />
+        </div>
+      )
+    }
+
+    ReactDOM.render(
+      <App />,
+      document.getElementById("root")
+    );
+  </script>
+</body>
+
+</html>

@@ -2,13 +2,11 @@
 
 ## Table of Contents
 
-### DoIt
-* To do list application using Android Studio
-* Created this app by following Penguin Coders To Do List App Tutorial: 
-https://www.youtube.com/playlist?list=PLzEWSvaHx_Z2MeyGNQeUCEktmnJBp8136
-* Parts 3/6 completed
+### OnlineCourses
+> Contains code from paid online course sites
 
-### TipTime
-* An application purely for the learning of editing the app's theme using Android Studio
-* Followed this CodeLab:
-https://developer.android.com/codelabs/basic-android-kotlin-training-change-app-theme#0
+### Tutorials
+> Contains code from freely available tutorials
+
+### [Notes](https://github.com/pmrsew/ObsidianNotes)
+> Notes written in Markdown, located in a different repository
