@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #282D35;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #21222A;
+    padding: 20px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--logo-img{
+    width: 30px;
+}
+
+.nav--logo-text{
+    font-weight: 700;
+    font-size: 22.25px;
+    color: #61DAFB;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.nav--page-title{
+    font-weight:600;
+    font-size:16px;
+    color:#DEEBF8;
+}
+
+.main{
+    height: 100%;
+    padding: 60px 20px;
+    color:white;
+
+    background-image: url(".\assets\reactjs-icon-bg.png");
+    background-repeat: no-repeat;
+                        /*x axis y axis*/
+    background-position: right center;
+}
+
+.main--title{
+    margin:0;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+.main--list{
+    margin-top: 45px;
+}
+
+.main--list > li{
+    /*selects padding for top and bottom*/
+    padding-block: 10px;
+}
+
+/*pseudoselector 'marker' is used to style bullets
+  NOTE: IT IS STILL NEW, AND NOT ACCEPTED BY ALL BROWSERS*/
+.main--list > li::marker{
+    font-size: 1.3rem;
+    color: #61DAFB;
+}

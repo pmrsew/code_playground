@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "poppins", "sans-serif";
+}
+
+section{
+  display:flex;
+}
+
+.navbar{
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo-img{
+  width: 85px;
+  /*top/bottom left/right*/
+  margin: 20px 30px;
+}
+
+.hero{
+  flex-direction: column;
+  margin: 25px 30px;
+}
+
+.hero p{
+  margin: 0;
+}
+
+.hero--img{
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--title{
+  margin-top: 30px;
+  margin-bottom:10px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.hero--desc{
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin: 50px 30px;
+}
+
+.card{
+  height: 305px;
+  width: 175px;
+  font-size: 12px;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card > p{
+  margin-block: 3px;
+}
+
+.card--img{
+  border-radius: 10px;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.card--reviews{
+  display:flex;
+  align-items: center;
+}
+
+.card--reviews-star{
+  width: 15px;
+  margin-right: 2px;
+}
+
+.card--details {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.gray{
+  color: #918E9B;
+}
+
+.bold{
+  font-weight: bold;
+}
+
