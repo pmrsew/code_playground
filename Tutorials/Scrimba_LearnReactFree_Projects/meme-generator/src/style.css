@@ -12,6 +12,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     color:white;
+    height: 75px;
 }
 
 .header--logo{
@@ -33,4 +34,41 @@ body{
     font-family: 'Inter', 'sans-serif';
     font-weight: 500;
     font-size: 12px;
+}
+
+.meme-form{
+    padding: 35px 20px;
+    display: grid;
+    grid-template-areas:
+        "input-row-1 . input-row-2"
+        "button button button";
+    grid-template-columns: 1fr 4% 1fr;
+    grid-template-rows: 35px 40px;
+    row-gap: 15px;
+
+}
+
+#meme-form--row-1{
+    grid-area: input-row-1;
+}
+
+#meme-form--row-2{
+    grid-area: input-row-2;
+}
+
+#meme-form--submit{
+    grid-area: button;
+}
+
+.meme-form--button{
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    color:white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.meme-form--button:hover{
+    background: linear-gradient(90.41deg, #9c2cc1 1.14%, #b143d6 100%);
 }
