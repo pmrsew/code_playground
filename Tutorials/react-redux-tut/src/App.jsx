@@ -1,17 +1,19 @@
 import {useSelector, useDispatch} from 'react-redux'
+import {actions} from "./store/index.js"
+
 
 export default function App() {
   const counter = useSelector((state)=>state.counter)
   const dispatch = useDispatch()
   function increase(){
-    dispatch({type:"INC"})
+    dispatch(actions.increase())
   }
   function decrease(){
-    dispatch({type:"DEC"})
+    dispatch(actions.decrease())
   }
   function addBy(){
     //7 is the payload to the action ADD
-    dispatch({type:"ADD",payload:7})
+    dispatch(actions.addBy(7))
   }
   return (
     <div className="app">
