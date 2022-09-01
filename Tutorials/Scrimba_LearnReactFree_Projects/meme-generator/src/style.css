@@ -36,8 +36,13 @@ body{
     font-size: 12px;
 }
 
-.meme-form{
+.meme{
     padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meme-form{
     display: grid;
     grid-template-areas:
         "input-row-1 . input-row-2"
@@ -71,4 +76,10 @@ body{
 
 .meme-form--button:hover{
     background: linear-gradient(90.41deg, #9c2cc1 1.14%, #b143d6 100%);
+}
+
+.meme-img{
+    margin-top: 15px;
+    justify-self: center;
+    max-width: 100%;
 }
