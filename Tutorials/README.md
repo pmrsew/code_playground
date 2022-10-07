@@ -17,6 +17,3 @@ https://www.youtube.com/playlist?list=PLzEWSvaHx_Z2MeyGNQeUCEktmnJBp8136
 * Followed this CodeLab:
 https://developer.android.com/codelabs/basic-android-kotlin-training-change-app-theme#0
 
-### React Redux Tutorial
-* Tutorial for learning Redux
-* Code followed: https://www.youtube.com/watch?v=zrs7u6bdbUw&ab_channel=freeCodeCamp.org
